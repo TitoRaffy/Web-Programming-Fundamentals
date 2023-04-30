@@ -1,0 +1,38 @@
+body { /* applies all the adjustments to the whole website */
+    font-family: 'Lora', serif;
+    text-align: center;
+    background-color: silver
+}
+
+h1 {  /* specifcally these adjustments for the headers only */
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 100px;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Lora', serif;
+    text-align: center;
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: darkred;
+}
+
+p { /* adjusting fonts for paragraphs */
+    font-family: 'Lora', serif;    
+    text-transform: bold;
+}
+
+img {
+    border-radius: 10px;
+    border-style: inset;
+    border-color: white;
+}

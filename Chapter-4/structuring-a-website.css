@@ -1,0 +1,132 @@
+/* main design for the whole body */
+body {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+/* design for the header logo */
+h1 {
+    text-decoration: underline;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* design for the whole navigation bar */
+header {
+    background-color: #17072b;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    width: 100%;
+    height: 180px;
+}
+
+.hdr {
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 35px;
+}
+
+nav {
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+.navi {
+    padding-right: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    top: 67px;
+}
+
+section {
+    display: block;
+    width: 800px;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.img {
+    width: 900px;
+    height: 230px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+aside {
+    color: white;
+    background-color: #172d67;
+    width: 430px;
+    height: 420px;
+    position: absolute;
+    top: 220px;
+    right: 7px;
+}
+
+.sidebar {
+    margin-left: 40px;
+}
+
+.hdr1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.hdr2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.point {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 22px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img1 {
+    margin-top: 9px;
+    margin-left: 29px;
+}
+/* design for the footer */
+footer {
+    background-color: #8c15e9;
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    left: 0;
+    bottom: 0;
+}
+
+.ftr {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}

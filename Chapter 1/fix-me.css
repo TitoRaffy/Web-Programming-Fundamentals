@@ -1,0 +1,23 @@
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    font-size: 1. 25rem; 
+    text-align: center;
+}
+p { 
+    line-height: 1.3; 
+}
+body {
+    background-color: rgb(168, 214, 255);
+    font-family: Georgia, serif;
+}
+.author {
+    font-size: 1.1rem; 
+    text-align: center;
+    font-style: italic;
+}

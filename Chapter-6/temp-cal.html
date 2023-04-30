@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="temp-cal.css">
+    <title>Temparature calculator</title>
+</head>
+
+<body>
+    <!--this is the main body of the calculator-->
+    <div class="calcu">
+        <div class="cnvrtr">
+            <!--the header of the calculator-->
+            <h1 class="title">Temparature Calculator</h1>
+            <div class="result">
+                <!--this part will show the result of the calculated celsius-->
+                <span class="rslt-hdr">Result (Celsius)</span>
+                <h2 class="cel-val" id="celsius"></h2>
+            </div>
+            <!--this is what the calculation will be-->
+            <div class="degree-type">
+                <div class="degree-fld">
+                    <label for="degree">Degrees</label>
+                    <input type="number" name="degree" id="degree">
+                </div>
+            </div>
+            <!--you can type what ever number you want-->
+            <!--you can choose between kelvin and fahrenheit-->
+            <div class="field">
+                <label for="temp-type">Type</label>
+                <select name="temps" id="temp-type" autocomplete="on">
+                    <option id="fahrenheit" value="fahrenheit">Fahrenheit</option>
+                    <option id="kelvin" value="kelvin">Kelvin</option>
+                </select>
+            </div>
+        </div>
+        <button id="submit">Submit</button>
+    </div>
+    </div>
+<script src="temp-cal.js"></script>
+</body>
+
+</html>

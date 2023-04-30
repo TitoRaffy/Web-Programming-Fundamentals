@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+/* this is the main body of the whole game */
+.bg {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 10px solid black;
+    background-image: url("https://media1.giphy.com/media/U7huVmA3TKuqvznInJ/giphy.gif");
+    background-position: center;
+    background-size: cover;
+}
+/* the main appearance of the character */
+#hero {
+    width: 90px;
+    height: 120px;
+    position: relative;
+    top: 150px;
+    z-index: 2;
+}
+/*the main appearance of the obstacle */
+#obst {
+    width: 200px;
+    height: 250px;
+    position: relative;
+    top: 200px;
+    left: 500px;
+    animation: obst 2s infinite linear;
+    z-index: 1;
+}
+/* this is how the obstacle moves towards the character */
+@keyframes obst {
+    0% {
+        left: 500px
+    }
+
+    100% {
+        left: -200px
+    }
+}
+/* the total frames of the character jumping */
+@keyframes jump {
+    0% {
+        top: 150px;
+    }
+
+    20% {
+        top: 120px
+    }
+
+    30% {
+        top: 30px;
+    }
+
+    70% {
+        top: 30px;
+    }
+
+
+    80% {
+        top: 120px;
+    }
+
+    100% {
+        top: 150px;
+    }
+}
+
+.animate {
+    animation: jump 0.3s linear;
+}

@@ -1,0 +1,33 @@
+/* this is main background and text for the whole html */
+body {
+    font-family: 'Lora', serif;
+    background-color: cornflowerblue;
+}
+/* i used these adjustments for all of these tags */
+h1 {
+    text-align: center;
+    font-family: 'Lora', serif;
+    text-decoration: underline;
+    border: 10px solid whitesmoke;
+}
+
+h2 {
+    font-size: 28px; 
+    font-family: 'Lora', serif;
+}
+
+h3 {
+    font-size: 20px; 
+    font-family: 'Lora', serif;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 18px; 
+    font-family: 'Lora', serif;
+}
+
+pre {
+    font-size: 20px; 
+    font-family: 'Lora', serif;
+}
